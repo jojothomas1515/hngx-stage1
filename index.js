@@ -4,7 +4,7 @@ import express from "express";
 
 let app = express()
 
-app.get("/", (req, res, next) => {
+app.get("/api", (req, res, next) => {
   // getting the slack name from the query
   let slackName = req.query.slack_name
   // getting the track from the query param
