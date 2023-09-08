@@ -16,7 +16,7 @@ app.get("/api", (req, res, next) => {
       // To get the day name
       "current_day": date.toLocaleString("en-US", { weekday: "long" }),
 
-      "utc_time": date.toISOString(),
+      "utc_time": date.toISOString().split(".")[0] + "Z",
       "track": track,
       "github_file_url": "https://github.com/jojothomas1515/hngx-stage1/index.js",
       "github_repo_url": "https://github.com/jojothomas1515/hngx-stage1",
