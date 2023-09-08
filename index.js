@@ -1,7 +1,6 @@
 #!/usr/bin/node
 
 import express from "express";
-import dt from "date-and-time";
 
 let app = express()
 
