@@ -18,7 +18,7 @@ app.get("/api", (req, res, next) => {
 
       "utc_time": date.toISOString().split(".")[0] + "Z",
       "track": track,
-      "github_file_url": "https://github.com/jojothomas1515/hngx-stage1/index.js",
+      "github_file_url": "https://github.com/jojothomas1515/hngx-stage1/blob/master/index.js",
       "github_repo_url": "https://github.com/jojothomas1515/hngx-stage1",
       "status_code": res.statusCode
     }
