@@ -41,4 +41,4 @@ output should be same as the one below
 
 Go ahead and test with the hosted version
 
-https://hngx-task1-a8e3.onrender.com/?slack_name=slack_name&track=your_track
+https://hngx-task1-a8e3.onrender.com/api?slack_name=slack_name&track=your_track
